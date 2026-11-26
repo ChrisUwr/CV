@@ -1,0 +1,143 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% --- Pakiety ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{lmodern}
+
+% --- Kolory ---
+\definecolor{maincolor}{RGB}{30,65,100}
+\definecolor{graytext}{RGB}{90,90,90}
+
+% --- Formatowanie ---
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\tabcolsep}{0pt}
+
+\titleformat{\section}
+{\large\bfseries\color{maincolor}}
+{}{0em}{}[\titlerule]
+
+\titlespacing{\section}{0pt}{9pt}{5pt}
+
+\setlist[itemize]{
+    leftmargin=15pt,
+    itemsep=2pt,
+    topsep=3pt
+}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=maincolor
+}
+
+\begin{document}
+
+% --- Dane osobowe ---
+\begin{center}
+    {\Huge \textbf{\color{maincolor} KRYSTIAN CZARNOTA}}\\[5pt]
+    {\large Programista}\\[7pt]
+
+    Wrocław, Polska \quad | \quad
+    +48 123 456 789
+\end{center}
+
+% --- Profil ---
+\section*{Profil zawodowy}
+
+Programista zainteresowany tworzeniem oprogramowania,
+aplikacji oraz rozwiązań internetowych. Posiadam doświadczenie
+w pracy z językami Java, JavaScript i C\#, a także w tworzeniu
+projektów z wykorzystaniem silnika Unity. Interesuję się
+również web designem, projektowaniem interfejsów oraz
+tworzeniem nowoczesnych i funkcjonalnych stron internetowych.
+Jestem osobą szybko uczącą się, nastawioną na rozwój
+i chętną do zdobywania nowych umiejętności.
+
+% --- Doświadczenie i projekty ---
+\section*{Doświadczenie i projekty programistyczne}
+
+\textbf{Tworzenie aplikacji i oprogramowania}
+\begin{itemize}
+    \item Rozwijanie aplikacji z wykorzystaniem języków Java
+    oraz JavaScript.
+    \item Implementowanie funkcjonalności i rozwiązywanie
+    problemów programistycznych.
+    \item Praca z kodem oraz rozwijanie umiejętności
+    projektowania oprogramowania.
+\end{itemize}
+
+\textbf{Tworzenie gier i aplikacji w Unity}
+\begin{itemize}
+    \item Tworzenie projektów z wykorzystaniem języka C\#
+    i silnika Unity.
+    \item Implementowanie mechanik oraz funkcjonalności
+    interaktywnych.
+\end{itemize}
+
+\textbf{Web Design i tworzenie stron internetowych}
+\begin{itemize}
+    \item Projektowanie nowoczesnych i estetycznych
+    interfejsów stron internetowych.
+    \item Dbanie o funkcjonalność, czytelność
+    i wygodę użytkowania.
+\end{itemize}
+
+% --- Wykształcenie ---
+\section*{Wykształcenie}
+
+\textbf{Uniwersytet Wrocławski}
+\hfill \textcolor{graytext}{2026 -- obecnie}\\
+Informatyka -- student
+
+% --- Umiejętności ---
+\section*{Umiejętności}
+
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Języki programowania:} &
+Java, JavaScript, C\#, Python, SQL \\[3pt]
+
+\textbf{Technologie:} &
+Unity, Git, Linux \\[3pt]
+
+\textbf{Web Design:} &
+Projektowanie stron internetowych,
+projektowanie interfejsów UI/UX \\[3pt]
+
+\textbf{Narzędzia:} &
+Visual Studio Code, Excel \\[3pt]
+
+\textbf{Języki obce:} &
+Polski -- ojczysty, Angielski -- C2 \\[3pt]
+
+\textbf{Umiejętności miękkie:} &
+Analityczne myślenie, komunikatywność,
+praca zespołowa, szybkie przyswajanie wiedzy
+\end{tabularx}
+
+% --- Dodatkowe informacje ---
+\section*{Dodatkowe informacje}
+
+Zainteresowanie nowymi technologiami, rozwojem
+oprogramowania, tworzeniem gier komputerowych
+oraz projektowaniem stron internetowych.
+
+\vfill
+
+% --- Klauzula ---
+{\footnotesize\color{graytext}
+Wyrażam zgodę na przetwarzanie moich danych osobowych
+zawartych w CV na potrzeby obecnego procesu rekrutacyjnego,
+zgodnie z obowiązującymi przepisami prawa.
+}
+
+\end{document}
